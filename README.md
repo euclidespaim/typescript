@@ -4,3 +4,7 @@
 - Integração com scripts do Node.js
 - Modificadores de acesso private e public
 - Benefícios iniciais da linguagem TypeScript
+- Inspiração no React para criação de templates declarativos e dinâmicos
+- Manipulação declarativa do DOM através de template
+- Template dinâmico
+- Formatação de datas usando Intl

@@ -12,3 +12,7 @@
 - Classes com tipo genérico
 - Classes abstratas
 - O modificador protected
+- Visibilidade de métodos
+- Validando negociações em dias úteis
+- Vantagens do uso de enums
+- Cuidados com enums

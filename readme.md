@@ -22,3 +22,6 @@
 - Ativação do strictNullChecks
 - Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
 - Benefícios do strictNullChecks no controle do fluxo da sua aplicação
+- Requisitos não funcionais
+- Decorator de método
+- Logar tempo de execução com decorator

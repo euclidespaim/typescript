@@ -2,7 +2,7 @@ import { Comparavel } from '../interfaces/comparavel.js';
 import { Imprimivel } from '../utils/imprimivel.js';
 import { Negociacao } from './negociacao.js';
 
-export class Negociacoes implements Imprimivel, Comparavel{
+export class Negociacoes implements Imprimivel, Comparavel<Negociacoes>{
     
     private negociacoes: Negociacao[] = [];
 

@@ -1,7 +1,5 @@
-import { Imprimivel } from "../utils/imprimivel.js";
-export class Negociacao extends Imprimivel {
+export class Negociacao {
     constructor(_data, quantidade, valor) {
-        super();
         this._data = _data;
         this.quantidade = quantidade;
         this.valor = valor;
@@ -27,5 +25,9 @@ export class Negociacao extends Imprimivel {
             Valor: ${this.valor},
         `;
     }
+    ehIgual(negociacao) {
+        return this.data.getDate() === negociacao.data.getDate()
+            && this.data.getMonth() === negociacao.data.getMonth()
+            && this.data.getFullYear() === negociacao.data.getFullYear();
+    }
 }
-const o = new Negociacao(new Date(), 1, 1);

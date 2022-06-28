@@ -43,4 +43,4 @@
 - Interface de método
 - Evitando importar negociações duplicadas
 - Estendendo interfaces
-- Geração de sourmaps e debug da aplicação no navegador
+- Geração de sourcemaps e debug da aplicação no navegador

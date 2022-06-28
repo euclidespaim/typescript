@@ -7,16 +7,14 @@ export function domInjector(seletor: string){
         console.log(`Adcinonando getter para a propriedade: ${propertyKey}`);
         
         let elemento: HTMLElement;
+
         const getter = function(){
             if (!elemento) {
                 elemento = <HTMLElement>document.querySelector(seletor);
-
+                console.log(`Busacando seletor: ${seletor}, para injetar em: ${propertyKey}`);
             }
-
-            /*const elemento = document.querySelector(seletor);
-            console.log(`busacando ${seletor} para injetar em ${propertyKey}`);
             
-            return elemento;*/
+            return elemento;
         }
 
         Object.defineProperty(

@@ -35,3 +35,7 @@
 - Criação dinâmica de getters
 - O uso de Object.defineProperty
 - Cache de decorators
+- API externa
+- Consumindo API externa
+- Definindo uma interface para a API
+- Isolando o acesso à API em um serviço
